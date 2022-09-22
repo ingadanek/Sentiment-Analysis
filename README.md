@@ -11,7 +11,6 @@ Each review is located in a separate file.
 
 Program asks a user to enter a review to then calculate its sentiment.
 
-
 First, each word's sentiment is calculated using the following equation:
 
  (positive-negative)/all_
@@ -26,8 +25,13 @@ If that word appears in 9 positive reviews and 1 negative review, then its senti
 Having calculated each word's sentiment, the program then proceeds to calculating the sentiment of the whole review. In order to do that, the mean value of each word's sentiment is calculated.
 
 The whole review is considered to be:
-positive when its sentiment is > 0,
-negative when its sentiment is < 0
+positive - when its sentiment is > 0,
+negative - when its sentiment is < 0
+
+## How to use
+Using one's preferred code editor (e.g. VSCode), user enters keyword 'python' followed by filepath. Once the code's executed, user is asked to enter a review to then calculate its sentiment. 
+
+e.g. `python projects/sentiment/sentiment_analysis.py`
 
 ## Code and Resources Used
 **Python Version:** `3.10.6`
