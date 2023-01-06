@@ -17,7 +17,7 @@ First, each word's sentiment is calculated using the following equation:
 
 **positive** - the number of positive reviews in which the given word appeared,
 **negative** - the number of positive reviews in which the given word appeared,
-**all_ **- the number of all the reviews in which the given word appeared
+**all_**- the number of all the reviews in which the given word appeared
 
 For example, if a certain word appears in 5 positive reviews and 5 negative reviews, then its sentiment equals (5-5)/10 = 0.0. 
 If that word appears in 9 positive reviews and 1 negative review, then its sentiment equals (9-1)/10 = +0.8.
